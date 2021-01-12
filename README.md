@@ -15,7 +15,3 @@ Most of this is optional, you don't really need jQuery or a popup, use what you 
 See: https://support.testsigma.com/support/solutions/articles/32000027752-compiling-chrome-extension-folder-to-crx-format
 
 `"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --pack-extension=<chrome extension folder location>`
-
-# To Do
-
-- Add SPA example (trigger on page navigation instead of only on the first load);
