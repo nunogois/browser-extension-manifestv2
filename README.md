@@ -1,7 +1,7 @@
 # Browser Extension Manifest v2
 
 A basic browser extension example, compatible with Chrome, Firefox, Opera, Edge and possibly other modern browsers.
-Most of this is optional, you don't really need jQuery or a popup, use what you need.
+Most of this is optional, you don't really need jQuery or a popup, adapt accordingly.
 
 # Try installing on Chrome
 
@@ -13,4 +13,4 @@ Most of this is optional, you don't really need jQuery or a popup, use what you 
 
 # Compiling to CRX
 
-Check out information about CRX here: https://support.testsigma.com/support/solutions/articles/32000027752-compiling-chrome-extension-folder-to-crx-format
+Use the equivalent of: `"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --pack-extension=<chrome extension folder location>` where *<chrome extension folder location>* points to your extension folder.
