@@ -1,0 +1,26 @@
+{
+  "name": "Browser Extension Manifest v2",
+  "version": "1.0",
+  "description": "Basic browser extension example (Chrome, Firefox, Opera, Edge)",
+  "icons": {
+    "16": "images/logo16.png",
+    "32": "images/logo32.png",
+    "48": "images/logo48.png",
+    "128": "images/logo128.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.nunogois.com/*"
+      ],
+      "js": [
+        "ext/js/jquery-3.5.1.min.js",
+        "content-script.js"
+      ]
+    }
+  ],
+  "manifest_version": 2
+}
