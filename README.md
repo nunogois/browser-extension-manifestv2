@@ -13,4 +13,8 @@ Most of this is optional, you don't really need jQuery or a popup, adapt accordi
 
 # Compiling to CRX
 
-Use the equivalent of: `"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --pack-extension=<chrome extension folder location>` where *<chrome extension folder location>* points to your extension folder.
+Use the equivalent of: 
+
+> "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --pack-extension=\<chrome extension folder location>
+  
+Where **\<chrome extension folder location>** points to your extension folder.
