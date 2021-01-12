@@ -5,13 +5,12 @@ Most of this is optional, you don't really need jQuery or a popup, use what you 
 
 # Try installing on Chrome
 
-1. Open Google Chrome and enter this URL: `chrome://extensions/`
-2. Toggle **Developer Mode** on the top right corner;
-3. Click on **Load Unpacked** and select this folder;
-4. After enabling the extension, try opening my website for some extra goodies: https://www.nunogois.com
+1. Clone this repo;
+2. Open Google Chrome and enter this URL: `chrome://extensions/`
+3. Toggle **Developer Mode** on the top right corner;
+4. Click on **Load Unpacked** and select the folder you've cloned on the first step;
+5. After enabling the extension, try opening my website for some changes caused by the extension: https://www.nunogois.com
 
-# Compiling to .crx
+# Compiling to CRX
 
-See: https://support.testsigma.com/support/solutions/articles/32000027752-compiling-chrome-extension-folder-to-crx-format
-
-`"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --pack-extension=<chrome extension folder location>`
+Check out information about CRX here: https://support.testsigma.com/support/solutions/articles/32000027752-compiling-chrome-extension-folder-to-crx-format
